@@ -102,7 +102,7 @@ angular.module('starter', ['ionic'])
 }])
 
 .controller('DesignCtrl', ['$scope', 'Square', function($scope, Square) {
-  $scope.text = 'Keep calm and shut the fuck up';
+  $scope.text = 'I love cake';
   var square = new Square();
   $scope.square = square;
 
