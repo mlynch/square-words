@@ -1,0 +1,24 @@
+.container {
+  /*
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  */
+}
+square {
+  display: block;
+  width: 320px;
+  height: 320px;
+  background: black;
+  margin: auto;
+}
+
+controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: block;
+  height: 80px;
+  width: 100%;
+  background-color: #888;
+}
